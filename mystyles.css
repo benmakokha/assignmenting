@@ -1,0 +1,155 @@
+/*styling for a fixed navigation bar */
+body{
+	margin:0;
+}
+
+.navbar{
+	overflow:hidden;
+	background-color:rgba(70,70,70,0.2);
+	position:fixed;
+	top:0;
+	width:61%;
+	float:right;
+	height:16.7%;
+}
+.navbar a{
+	float:left;
+	display:block;
+	color:black;
+	padding:40px;
+	text-align:center;
+	text-decoration:none;
+	font-size:150%;
+	width:20%;
+}
+
+.navbar a:hover{
+background-color:rgba(90,90,90,0.2);
+color:rgba(70,70,70,0.2);
+}
+
+.main{
+height:1500px;
+margin-top:30px;
+padding:60px;
+}
+
+/* styling for my dropdown navigation bar */
+
+.dropbtn{
+	background-color:red;
+	color:white;
+	font-size:100%;
+	padding:30px 30px 50px 50px;
+	border:2px solid black;
+	text-align:center;
+}
+.dropdown{
+	position:relative;
+	display:inline-block;
+	float:right;
+}
+.dropdown-content{
+	float:left;
+	display:none;
+	position:absolute;
+	background-color:f1f1f1;
+	min-width:100px;
+	box-shadow: 0px 16px 32px 0px rgba(0,0,0,0.2);
+	z-index:1;
+}
+.dropdown-content a{
+	color:black;
+	padding:40px;
+	display:block;
+	text-decoration:none;
+}
+.dropdown-content a:hover{
+	background-color:rgba(70,70,70,0.2);
+	color:rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+.dropdown:hover .dropbtn{
+	background-color:green;
+}
+
+/* my styling for glowing text */
+h1{
+	font-size:200%;
+	color:black;
+	text-align:center;
+}
+.usebody{
+	background-color:black;
+	font-family:cursive;
+	font-size:300%; 
+}
+.glow{
+	 color:#ffff;
+	 text-align:center;
+	// -webkit-animation: glow 1s ease-in-out infinite alternate;
+	// -moz-animation: glow 1s ease-in-out infinite alternate;
+	 animation: glow 0.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+	
+	from{
+		text-shadow:0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #e60073,
+		0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+ 
+	to{
+		text-shadow: 0 0 20px #ffffff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+		0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ffda6;
+}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
